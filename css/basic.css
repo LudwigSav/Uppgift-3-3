@@ -1,1 +1,25 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container {
+width : 740px;
+height:200px;
+margin-left : auto;
+margin-right : auto;
+margin-top : 20px;
+line-height: 1.7em;
+background: #00ff00 url('/pics/coffey.jpg') no-repeat fixed center; 
+}
+#topbar {
+    height:20px;
+    width:740px;
+    float:right;
+    font-size:10px;
+    font-family:Verdana;
+    font-style:italic;
+    padding:0px;
+    background:#644C37;
+    
+}
+#menu {
+    width:740px;
+    height:120px;
+    
+}
