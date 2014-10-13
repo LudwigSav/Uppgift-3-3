@@ -32,9 +32,6 @@ html, body
     text-align: right;
     padding: 2px;
 }
-#maincontent img{
-    float:left;
-}
 #menu
 {
     width: 600px;
@@ -57,4 +54,41 @@ html, body
     word-spacing: 3px;
 }
 
+#menu ul
+{
+    margin: 0px;
+    padding: 8px;
+    list-style: none;
+}
+
+#menu li
+{
+    float: left;
+    text-transform: capitalize;
+}
+
+#menu ul li a
+{
+    text-decoration: none;
+    color: #eae7d2;
+    background-color: #797066;
+    padding: 9px 20px 8px 20px;
+    margin-left: 1px; 
+}
+
+#menu ul li a:hover
+{
+    background-color: #9c9084;
+}
+
+#menu .active a
+{
+    background-color: #eae7d2;
+    color: #797066;
+}
+
+a
+{
+    color: #51473d;
+}
 a[href='#maincontent']{ display: none }
