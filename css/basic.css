@@ -55,6 +55,11 @@ html, body
 }
 #maincontent img{
     float:left;
+    padding: 5px 5px 5px 0px;
+}
+#maincontent p{
+    margin-left:10px;
+    
 }
 
 #menu ul
