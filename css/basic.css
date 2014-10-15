@@ -53,6 +53,9 @@ html, body
     padding-right: 10px;
     word-spacing: 3px;
 }
+#maincontent img{
+    float:left;
+}
 
 #menu ul
 {
@@ -86,6 +89,20 @@ html, body
     background-color: #eae7d2;
     color: #797066;
 }
+#subcontent
+{
+    width: 240px;
+    float: right;
+}
+
+#bottomcontent
+{
+    clear: both;
+    width: 580px;    
+    font-style: italic;
+    font-size: 9px;
+}
+
 
 a
 {
